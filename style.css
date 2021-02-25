@@ -2,24 +2,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-:root {--rounding: 5px;}
-
-/*Narrow margins, theme main page*/
-.cardBox-bottompadded {
-    margin-bottom: 0.6em !important;
-}
-.itemsContainer > .card > .cardBox {
-    margin-right: 0.8em;
-}
-.raised.homeLibraryButton {
-    background: rgba(0, 0, 0, 0.3) !important;
-}
-.raised.homeLibraryButton:hover {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-.raised.homeLibraryButton:hover {transition: filter 0.2s}
-.raised.homeLibraryButton {transition: filter 0.2s}
-.homeLibraryButton {
-    min-width: 12em;
-    margin: 0.4em;
+.cardScalable {
+  border-radius: 0.50em;
 }
