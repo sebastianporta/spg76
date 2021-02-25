@@ -2,4 +2,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-:root {--rounding: 5px;}
+.cardContent-button,
+.itemDetailImage {
+  border-radius: 0.25em;
+}
