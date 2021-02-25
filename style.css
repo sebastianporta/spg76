@@ -2,6 +2,8 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.cardScalable {
-  border-radius: 0.50em;
+:root {--rounding: 5px;}
+
+.cardOverlayContainer {
+	border-radius: var(--rounding) !important;
 }
